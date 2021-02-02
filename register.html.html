@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Bca Sem 6 reg...</title>
+<style>
+
+body {background-color:#101820ff;}
+	#coll {
+	text-shadow: 5px 2px 10px black;
+	font-family: "Impact";
+	font-size: 150px;
+	color : #f2aa4cff;
+	}
+	
+	.c1 {
+	text-shadow: 5px 2px 8px black;
+	font-family: "Comic Sans MS	";
+	font-size: 20px;
+	color : #f2aa7cff ;
+	}
+	
+	
+	#bca {
+	text-shadow: 5px 2px 15px black;
+	font-family: "SimSun-ExtB";
+	font-size: 50px;
+	color : #f2aa7cff;
+	}
+	 .pi{
+	 text-shadow: 5px 2px 8px black;
+	font-family: "Tw Cen MT";
+	font-size: 35px;
+	color : #f2aa4cff;
+	 }
+	 .rr{
+		text-align: center;
+		text-shadow: 5px 2px 8px black;
+	font-family: "Tw Cen MT";
+	font-size: 20px;
+	color : #f2aa4cff;
+	 }
+	 .sd {
+	 padding : 7px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Gill Sans MT;
+	height: 10px;
+	 border-radius: 25px;
+	background: #565654;
+	 box-shadow: 0px 0px 20px black;
+	 }
+	 
+	 .bb {
+	box-shadow: 0px 0px 20px black;
+	 border: none;
+	  padding: 8px;
+	 font-size: 16px;
+	 height: 40px;
+	 width: 60px;
+	 border-radius: 8px;
+	  margin: 10px 10px;
+	  font-family: Gill Sans MT;
+	  font-family: Gill Sans MT;
+	  background-color : #565432;
+	  
+	}
+	 .jd {
+	 box-shadow: 0px 0px 20px black;
+	 border: none;
+	  padding: 8px;
+	 font-size: 16px;
+	 height: 40px;
+	 width: 110px;
+	 border-radius: 8px;
+	  margin: 10px 10px;
+	  font-family: Gill Sans MT;
+	  font-family: Gill Sans MT;
+	  background-color : #565654;
+	 }
+</style>
+</head>
+<body>
+<center>
+
+<h1 id="coll">S.K.M.U</h1>
+<form action = "table.jsp" method = "GET">
+<h1 id="bca">BCA SEM 6 Registration<h1>
+<hr>
+</center>
+
+
+<h3 class="rr">Application No. :  WS/20-21/bc/4/35/131/1657692</h3>
+<h3 class="rr">Academic Year : 2018-21</h3>
+
+
+<h2 class="pi">Student Details :</h2>
+
+<hr>
+<table style="width:70%">
+<tr>
+<td><h4 class="c1">Name of the Student : </h4></td>
+<td><input  class="sd" type= "text" name= "user" placeholder=" Name"></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">Father's Name : </h4></td>
+<td><input  class="sd" type= "text" name= "userf" placeholder="Father name"></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">Mother's Name : </h4></td>
+<td><input   class="sd" type= "text" name= "userm" placeholder="Mother name " ></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">guardian's Name : </h4></td>
+<td><input  class="sd" type= "text" name= "userg" placeholder="Guardian"></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">Category : </h4></td>
+<td><select name="cate" placeholder="category" class="jd" >
+<option value="General">General</option>
+<option value="Obc1">Obc1</option>
+<option value="Obc2">Obc2</option>
+<option value="Sc">Sc</option>
+<option value="St">St</option>
+</select></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">Date Of birth : </h4></td>
+<td><input  class="sd" type="month" name="date" ></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">Gender : </h4></td>
+<td><input    type="radio" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" name="gender" value="female">
+<label for="female">female</label><br>
+<input type="radio" name="gender" value="other">
+<label for="other">Other</label></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">Father/mother occupation : </h4></td>
+<td><select name="occu" placeholder="occupation"  class="jd">
+<option value="">goverment employe</option>
+<option value="">private employe</option>
+<option value="bussines">bussines</option>
+<option value="other">other</option>
+</select></td>
+</tr>
+
+</table>
+
+<table style="width:70%">
+<h1 class="pi">Permanant Address :<h1>
+<hr>
+<tr>
+<td><h4 class="c1">Address : </h4></td>
+<td><textarea  class="sd" name="address" style="width:500px; height:30px;" placeholder="Permanant Address"></textarea></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">District : </h4></td>
+<td><input   class="sd" type="text" name="dis" placeholder="District"></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">PIN Code : </h4></td>
+<td><input  class="sd" type="text" name="pin" placeholder="PIN"></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">Block : </h4></td>
+<td><input  class="sd" type="text" name="blo" placeholder="Block"></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">E-Mail : </h4></td>
+<td><textarea  class="sd" name="mail" style="width:500px; height:30px;" placeholder="Mail"></textarea></td>
+</tr>
+
+<tr>
+<td><h4 class="c1">Mobile No. :</h4></td>
+<td><input  class="sd" type="number" name="mob" placeholder="Mob-no."></td>
+</tr>
+
+
+
+
+</table>
+<hr>
+<center>
+<h4 class="c1">Read Carefully Before Submission your details</h4>
+         <input class="bb" type = "submit" value = "Submit" />
+</center>
+
+
+
+
+
+</form>
+</body>
+</html>

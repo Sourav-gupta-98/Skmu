@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>S.K.M.U official</title>
+<style>
+	body {background-color:#101820ff;}
+	#coll {
+	text-shadow: 5px 2px 10px black;
+	font-family: "Impact";
+	font-size: 150px;
+	color : #f2aa4cff;
+	}
+	
+
+	.c1 {
+	text-shadow: 5px 2px 8px black;
+	font-family: "Gill Sans MT";
+	font-size: 25px;
+	color : #f2aa4cff	;
+	}
+	.sd {
+	padding : 7px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Gill Sans MT;
+	height: 10px;
+	 border-radius: 25px;
+	background: #565654;
+	box-shadow: 0px 0px 20px black;
+	 border: none;
+	  
+	}
+	.bb {
+	box-shadow: 0px 0px 20px black;
+	 border: none;
+	  padding: 8px;
+	 font-size: 16px;
+	 height: 40px;
+	 width: 60px;
+	 border-radius: 8px;
+	  margin: 10px 10px;
+	  font-family: Gill Sans MT;
+	  background-color : #565432;
+	  
+	}
+	.aq {
+	font-size: 20px;
+	font-family: Gill Sans MT;
+	 color : red;
+	}
+</style>
+</head>
+<body>
+
+<center>
+
+<h1 id="coll">S.K.M.U</h1>
+
+<p class="c1">USER ID:</p>
+<input class="sd" id="user" type="number/text"  placeholder="user-id" required>
+
+<p class="c1">PASSWORD:</p>
+<input class="sd" id="pass" type="password"  placeholder="password" required>
+
+<br>
+<br>
+<button class="bb" type="button" value="submit" onclick="check()" >login</button>
+<br>
+<h3 class="aq" id="par"></h3>
+<h3 class="aq" id="link" style="display:none"> <a href="register.html">your link is ready click here...</a> </h3>
+
+<script type="text/javascript">
+function check()
+{
+var a = document.getElementById("user").value;
+var b = document.getElementById("pass").value;
+
+if(a == 'sourav12' && b == '5656')
+{
+document.getElementById("link").style.display='block';
+}
+else
+{
+document.getElementById("par").innerHTML=("wrong id and password please try again...");
+}
+
+}
+</script>
+</body>
+
+
+</html>
